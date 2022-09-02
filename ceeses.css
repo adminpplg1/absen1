@@ -1,0 +1,43 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+h2{
+    color: white;
+    font-family: freedoka;
+}
+
+label{
+    color: aliceblue;
+}
+
+.tombolbawah {
+    margin-top: 1rem;
+}
+
+@font-face {
+    font-family: sofia;
+    src: url(font/Sofia-Regular.ttf);
+}
+
+@font-face{
+    font-family: freedoka;
+    src: url(font/FredokaOne-Regular.ttf);
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
